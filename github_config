@@ -1,0 +1,15 @@
+Host github.com-sankar
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/sankar
+
+Host git.dhl.com-dhl
+    HostName git.dhl.com
+    User git
+    IdentityFile ~/.ssh/dhl
+
+Host aws-ec2
+    HostName 13.201.128.64
+    User ubuntu
+    IdentityFile ~/.ssh/aws-mumbai.pem
+    IdentitiesOnly yes
